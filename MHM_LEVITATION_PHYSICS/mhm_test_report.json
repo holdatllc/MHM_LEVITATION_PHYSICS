@@ -1,0 +1,31 @@
+{
+  "test_date": "2025-10-04T13:25:54.609585",
+  "system_info": {
+    "num_coils": 9,
+    "rated_current": 15.0,
+    "rated_voltage": 48.0,
+    "rated_power": 434.0,
+    "control_frequency": 1000,
+    "pwm_frequency": 5000,
+    "operating_temp_range": [
+      -20,
+      85
+    ],
+    "hover_height": 0.09,
+    "payload_capacity": 120
+  },
+  "standards_tested": {
+    "IEEE_519": "Harmonic Control in Electrical Power Systems",
+    "IEC_61000": "Electromagnetic Compatibility (EMC)",
+    "IEEE_1547": "Interconnecting Distributed Resources",
+    "IEC_62040": "Uninterruptible Power Systems (UPS)",
+    "MIL_STD_461": "EMI/EMC Requirements",
+    "DO_160": "Environmental Conditions for Airborne Equipment",
+    "ISO_9001": "Quality Management Systems",
+    "IEC_61508": "Functional Safety"
+  },
+  "test_results": {
+    "IEEE_519": {
+      "thd_percent": 0.0531616244207472,
+      "max_individual_harmonic": 0.038671986321148794,
+      "thd_compliant": 
